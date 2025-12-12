@@ -1,1 +1,3 @@
+# This folder will store trained model files such as .h5 or .pkl after training.
+# Currently empty, will be populated after model training.
 
