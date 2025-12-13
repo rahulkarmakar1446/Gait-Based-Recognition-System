@@ -115,7 +115,7 @@ The following figure illustrates the **training progress of the gait recognition
 
 ### 🔹 Training Accuracy & Loss Curve
 
-![Training Progress](results/CNN Training Progress.png)
+![Training Progress](results/CNN_Training_progress.png)
 
 
 🔄 Customization & Extensions
