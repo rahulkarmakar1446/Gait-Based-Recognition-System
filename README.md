@@ -114,14 +114,9 @@ The following figure illustrates the **training progress of the gait recognition
 - Loss decreases, indicating better model convergence
 - Final model achieves **93.86% accuracy**, improving from an initial **79% baseline**
 
-### 🔹 Training Accuracy & Loss Curve
 
 ![Training Progress](results/CNN_Training_progress.png)
-<p align="center">
-  <img src="results/CNN_Training_progress.png" alt="CNN_Training_progress" width="750">
-  <br>
-  <em>Figure: Training accuracy and loss progression of the CNN-based gait recognition model.</em>
-</p>
+
 
 
 
