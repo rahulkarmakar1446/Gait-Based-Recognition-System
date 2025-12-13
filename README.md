@@ -90,6 +90,7 @@ gei = compute_gei("sample_input.png")
 
 prediction = run_inference(model, gei)
 print("Predicted Identity:", prediction)
+```
 
 ## 📊 Performance Improvement & Accuracy Gain
 
@@ -116,6 +117,12 @@ The following figure illustrates the **training progress of the gait recognition
 ### 🔹 Training Accuracy & Loss Curve
 
 ![Training Progress](results/CNN_Training_progress.png)
+<p align="center">
+  <img src="results/CNN_Training_progress.png" alt="CNN_Training_progress" width="750">
+  <br>
+  <em>Figure: Training accuracy and loss progression of the CNN-based gait recognition model.</em>
+</p>
+
 
 
 🔄 Customization & Extensions
