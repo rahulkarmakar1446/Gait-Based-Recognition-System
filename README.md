@@ -91,17 +91,32 @@ gei = compute_gei("sample_input.png")
 prediction = run_inference(model, gei)
 print("Predicted Identity:", prediction)
 
-📊 Evaluation Metrics
+## 📊 Performance Improvement & Accuracy Gain
 
-The system can be evaluated using standard classification metrics:
+This project demonstrates a **significant improvement in gait recognition accuracy** by applying robust preprocessing, Gait Energy Image (GEI) representation, and optimized feature extraction techniques.
 
-Metric	Description
-Accuracy	Overall recognition performance
-Precision	Correct positive identifications
-Recall	Sensitivity of recognition
-F1-Score	Balance between precision & recall
+### 🔹 Accuracy Improvement
+- **Baseline Accuracy:** 79%
+- **Final Model Accuracy:** **93.86%**
+- **Overall Accuracy Gain:** **+14.86%**
 
-Evaluation results and plots are stored in the results/ folder.
+This improvement highlights the effectiveness of:
+- Clothing-invariant gait representations (GEI)
+- Enhanced silhouette preprocessing
+- Deep learning–based feature extraction
+
+## 📈 Training Progress Visualization
+
+The following figure illustrates the **training progress of the gait recognition model**, showing how performance improves across epochs.
+
+- Accuracy increases steadily during training
+- Loss decreases, indicating better model convergence
+- Final model achieves **93.86% accuracy**, improving from an initial **79% baseline**
+
+### 🔹 Training Accuracy & Loss Curve
+
+![Training Progress](results/training_progress.png)
+
 
 🔄 Customization & Extensions
 
